@@ -1,5 +1,5 @@
 var n = 50;
-const btn = document.querySelector('#cronometr');
+const btn = document.querySelector('button');
 
 const cronometro = setInterval(()=>{
     n = n-1;
