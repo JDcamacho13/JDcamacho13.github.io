@@ -4,7 +4,7 @@
 
 btn.addEventListener('click', ()=>{
     console.log("hola")
-    if(state){
+    if(!state){
         state = true;
         var n = 50;
         
