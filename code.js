@@ -1,4 +1,4 @@
-<script>
+
     var state = false;
 
 btn.addEventListener('click', ()=>{
@@ -23,4 +23,4 @@ btn.addEventListener('click', ()=>{
         },1000);
     }   
 })
-</script>
+
