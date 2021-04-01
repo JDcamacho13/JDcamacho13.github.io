@@ -1,4 +1,4 @@
-
+/*
     var state = false;
     const btn = document.querySelector('button');
 
@@ -26,3 +26,7 @@ btn.addEventListener('click', ()=>{
     }   
 })
 
+*/
+const p = document.createElement('p');
+p.textContent = 'A second line of text';
+document.body.appendChild(p);
