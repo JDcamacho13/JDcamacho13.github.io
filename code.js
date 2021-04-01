@@ -1,12 +1,13 @@
 
     var state = false;
+    const btn = document.querySelector('button');
 
 btn.addEventListener('click', ()=>{
     console.log("hola")
     if(state){
         state = true;
         var n = 50;
-        const btn = document.querySelector('button');
+        
 
         const cronometro = setInterval(()=>{
             n = n-1;
